@@ -1,5 +1,5 @@
 # Shuup CLI
-A Command Line Interface (CLI) to create Shuup addons projects in a easy way.
+A Command Line Interface (CLI) to create Shuup addons projects in an easy way.
 
 ## Usage
 
@@ -16,13 +16,18 @@ mkdir my_addon
 cd my_addon/
 ```
 
-Run the CLI and opitionally pass the output dir:
+Run the CLI and optionally pass the output dir:
 
 ```
 shuup-cli [output-dir]
 ```
 
 Follow the steps to create your base addon project.
+
+## Supported addon types
+
+* Generic addon (can be anything, just a base structure)
+* Simple Xtheme Theme
 
 # Copyright
 
