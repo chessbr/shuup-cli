@@ -1,0 +1,29 @@
+{
+  "name": "shuup-cli",
+  "version": "1.0.0",
+  "description": "Shuup Command Line Interface (CLI)",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chessbr/shuup-cli.git"
+  },
+  "keywords": [
+    "shuup",
+    "cli"
+  ],
+  "author": "Christian Hess <christianhess.rlz@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chessbr/shuup-cli/issues"
+  },
+  "homepage": "https://github.com/chessbr/shuup-cli#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "clear": "^0.1.0",
+    "figlet": "^1.2.1",
+    "inquirer": "^6.2.2",
+    "minimist": "^1.2.0",
+    "nunjucks": "^3.2.0",
+    "shelljs": "^0.8.3"
+  }
+}

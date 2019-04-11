@@ -1,0 +1,5 @@
+include README.md
+
+recursive-include {{ moduleName }}/locale *.mo
+recursive-include {{ moduleName }}/templates *.jinja *.txt
+recursive-include {{ moduleName }}/static *.js *.css
