@@ -1,6 +1,6 @@
 {
   "name": "shuup-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shuup Command Line Interface (CLI)",
   "main": "index.js",
   "repository": {
@@ -25,5 +25,8 @@
     "minimist": "^1.2.0",
     "nunjucks": "^3.2.0",
     "shelljs": "^0.8.3"
+  },
+  "bin": {
+    "shuup-cli": "index.js"
   }
 }
