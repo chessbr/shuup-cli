@@ -43,7 +43,7 @@ module.exports = {
         content: CommonReceipts
     },
     "project": {
-        name: "Shuup Blank Project",
+        name: "Blank Shuup Project",
         content: [
             {
                 file: "manage.py",

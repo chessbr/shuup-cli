@@ -26,6 +26,7 @@ Follow the steps to create your base addon project.
 
 ## Supported addon types
 
+* Blank Shuup Project
 * Generic addon (can be anything, just a base structure)
 * Simple Xtheme Theme
 
