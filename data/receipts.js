@@ -37,28 +37,60 @@ const CommonReceipts = [
     },
 ];
 
-const Receipts = {
-    "generic": [
-        ...CommonReceipts
-    ],
-    "xtheme-theme": [
-        ...CommonReceipts,
-        {
-            file: "{{ moduleName }}/apps.py",
-            template: "xtheme-theme/app/apps.py"
-        },
-        {
-            file: "{{ moduleName }}/templates/shuup/front/base.jinja",
-            template: "xtheme-theme/templates/base.jinja"
-        },
-        {
-            file: "{{ moduleName }}/templates/shuup/front/index.jinja",
-            template: "xtheme-theme/templates/index.jinja"
-        }
-    ]
-};
-
 module.exports = {
-    CommonReceipts,
-    Receipts
+    "generic": {
+        name: "Generic Addon",
+        content: CommonReceipts
+    },
+    "project": {
+        name: "Shuup Blank Project",
+        content: [
+            {
+                file: "manage.py",
+                template: "project/manage.py"
+            },
+            {
+                file: "requirements.txt",
+                template: "project/requirements.txt"
+            },
+            {
+                file: "README.md",
+                template: "project/README.md"
+            },
+            {
+                file: "app/__init__.py",
+                template: "blank.py"
+            },
+            {
+                file: "app/settings.py",
+                template: "project/app/settings.py"
+            },
+            {
+                file: "app/urls.py",
+                template: "project/app/urls.py"
+            },
+            {
+                file: "app/wsgi.py",
+                template: "project/app/wsgi.py"
+            }
+        ]
+    },
+    "xtheme-theme": {
+        name: "Xtheme Theme",
+        content: [
+            ...CommonReceipts,
+            {
+                file: "{{ moduleName }}/apps.py",
+                template: "xtheme-theme/app/apps.py"
+            },
+            {
+                file: "{{ moduleName }}/templates/shuup/front/base.jinja",
+                template: "xtheme-theme/templates/base.jinja"
+            },
+            {
+                file: "{{ moduleName }}/templates/shuup/front/index.jinja",
+                template: "xtheme-theme/templates/index.jinja"
+            }
+        ]
+    }
 };
