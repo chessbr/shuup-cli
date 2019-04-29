@@ -29,6 +29,7 @@ Follow the steps to create your base addon project.
 * Blank Shuup Project
 * Generic addon (can be anything, just a base structure)
 * Simple Xtheme Theme
+* Shipping Method
 
 # Copyright
 

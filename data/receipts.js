@@ -42,6 +42,28 @@ module.exports = {
         name: "Generic Addon",
         content: CommonReceipts
     },
+    "shippingMethod": {
+        name: "Shipping Method",
+        content: [
+            ...CommonReceipts,
+            {
+                file: "{{ moduleName }}/apps.py",
+                template: "shipping-method/apps.py"
+            },
+            {
+                file: "{{ moduleName }}/models.py",
+                template: "shipping-method/models.py"
+            },
+            {
+                file: "{{ moduleName }}/admin_module/__init__.py",
+                template: "blank.py"
+            },
+            {
+                file: "{{ moduleName }}/admin_module/forms.py",
+                template: "shipping-method/admin_forms.py"
+            }
+        ]
+    },
     "project": {
         name: "Blank Shuup Project",
         content: [
