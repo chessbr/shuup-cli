@@ -106,6 +106,10 @@ module.exports = {
                 template: "xtheme-theme/app/apps.py"
             },
             {
+                file: "{{ moduleName }}/theme.py",
+                template: "xtheme-theme/app/theme.py"
+            },
+            {
                 file: "{{ moduleName }}/templates/shuup/front/base.jinja",
                 template: "xtheme-theme/templates/base.jinja"
             },
