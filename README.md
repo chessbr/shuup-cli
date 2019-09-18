@@ -30,6 +30,7 @@ Follow the steps to create your base addon project.
 * Generic addon (can be anything, just a base structure)
 * Simple Xtheme Theme
 * Shipping Method
+* Celery configuration for Shuup Project (check [shuup-celery](https://github.com/chessbr/shuup-celery))
 
 # Copyright
 
