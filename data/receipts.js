@@ -80,19 +80,19 @@ module.exports = {
                 template: "project/README.md"
             },
             {
-                file: "app/__init__.py",
+                file: "project/__init__.py",
                 template: "blank.py"
             },
             {
-                file: "app/settings.py",
+                file: "project/settings.py",
                 template: "project/app/settings.py"
             },
             {
-                file: "app/urls.py",
+                file: "project/urls.py",
                 template: "project/app/urls.py"
             },
             {
-                file: "app/wsgi.py",
+                file: "project/wsgi.py",
                 template: "project/app/wsgi.py"
             }
         ]
@@ -118,5 +118,22 @@ module.exports = {
                 template: "xtheme-theme/templates/index.jinja"
             }
         ]
-    }
+    },
+    "celery-project": {
+        name: "Install Celery on Shuup Project",
+        content: [
+            {
+                file: "project/celery.py",
+                template: "celery/celery.py"
+            },
+            {
+                file: "project/__init__.py",
+                template: "celery/__init__.py"
+            },
+            {
+                file: "requirements.txt",
+                template: "celery/requirements.txt"
+            },
+        ]
+    },
 };
