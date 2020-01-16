@@ -22,15 +22,15 @@ Run the CLI and optionally pass the output dir:
 shuup-cli [output-dir]
 ```
 
-Follow the steps to create your base addon project.
+Follow the steps to create your base Shuup addon or project.
 
-## Supported addon types
+## Supported templates
 
 * Blank Shuup Project
 * Generic addon (can be anything, just a base structure)
 * Simple Xtheme Theme
 * Shipping Method
-* Celery configuration for Shuup Project (check [shuup-celery](https://github.com/chessbr/shuup-celery))
+* Celery configuration for Shuup Project
 
 # Copyright
 
