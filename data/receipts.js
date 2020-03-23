@@ -85,15 +85,15 @@ module.exports = {
             },
             {
                 file: "project/settings.py",
-                template: "project/app/settings.py"
+                template: "project/project/settings.py"
             },
             {
                 file: "project/urls.py",
-                template: "project/app/urls.py"
+                template: "project/aprojectpp/urls.py"
             },
             {
                 file: "project/wsgi.py",
-                template: "project/app/wsgi.py"
+                template: "project/project/wsgi.py"
             }
         ]
     },
